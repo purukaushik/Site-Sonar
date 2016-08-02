@@ -22,6 +22,7 @@
     "webRequest",
     "webNavigation",
     "alarms",
-    "https://ultra-lightbeam.herokuapp.com/log"
+    "https://ultra-lightbeam.herokuapp.com/log",
+    "http://localhost:3000/log/"
   ]
 }

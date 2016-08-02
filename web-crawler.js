@@ -81,7 +81,8 @@ function startRequestListeners() {
 			stringifyAssetStore();
 
 			// open XMLHTTPRequest
-			xhr.open("POST", "https://ultra-lightbeam.herokuapp.com/log/");
+			//xhr.open("POST", "https://ultra-lightbeam.herokuapp.com/log/");
+			xhr.open("POST", "http://localhost:3000/log/");
 			xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 			// making sure our client recieved our results
 			xhr.onreadystatechange = function () {
