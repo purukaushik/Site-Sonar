@@ -4,4 +4,4 @@ node_modules
 .eslintrc.js
 data/resultLogs.txt
 /.idea/**
-/js/web-crawler.bundle.js
+js/web-crawler.bundle.js
