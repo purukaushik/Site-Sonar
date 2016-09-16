@@ -1,19 +1,16 @@
 body {
 	font-family: "Helvetica";
-	width: 600px;
-	height: 600px;
+	width: 550px;
+	height: 530px;
 	padding: 20px;
-}
-
-input[type="button"] {
-	padding: 10px;
-	border: none;
-	cursor: pointer;
-	margin: 10px;
 }
 
 #main {
 	width: 100%;
+}
+
+#populateJSON, #copyJSON {
+	margin-bottom: 10px;
 }
 
 #adNumber {
@@ -28,8 +25,21 @@ input[type="button"] {
 	font-size: 1.8em;
 }
 
+#deleteButton {
+	display: block;
+	margin-bottom: 10px;
+}
+
 .body {
 	margin: 0 15px;
+}
+
+.loadError {
+	background-color: red;
+	color: white;
+	padding: 15px;
+	width: 50%;
+	margin: 0 auto;
 }
 
 .metricBox {
@@ -64,14 +74,16 @@ input[type="button"] {
 	margin-bottom: 10px;
 }
 
+#startProfileButton, #stopProfileButton {
+	margin: 0 auto 10px auto;
+}
+
 #startProfileButton {
 	display: block;
-	margin: 0 auto;
 }
 
 #stopProfileButton {
-	margin: 0 auto;
-	display: none;
+	display: block;
 	background-color: #2B98BD;
 	color: white;
 	font-weight: bold;
@@ -81,10 +93,6 @@ input[type="button"] {
 	font-size: 1em;
 	text-align: center;
 	color: grey;
-}
-
-#recordingText {
-	display: none;
 }
 
 .hidden {
@@ -104,7 +112,7 @@ input[type="button"] {
 }
 
 .head {
-	margin-bottom: 40px;
+	margin: 20px 0;
 }
 
 .selected {
