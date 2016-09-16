@@ -1,7 +1,7 @@
 ![Site Sonar Header Image](https://cloud.githubusercontent.com/assets/9794516/17645622/e442be3a-615f-11e6-8898-4916fafca02c.png)
 
 # Site Sonar
-A project aimed at identifying ad networks with the fastest and slowest performing ad's on the internet through crowd-sourced, easy to understand, and openly accessible benchmarking data. Inspired by [Lightbeam](https://github.com/mozilla/lightbeam), the Site Sonar browser extension (hosted in this repository) locates and benchmarks ad content silently while you browse. It is then sent to Site-Sonar's servers, where the data is aggregated and displayed on our [public dashboard](http://Site-Sonar.com/dashboard).
+A project cimed at identifying ad networks with the fastest and slowest performing ad's on the internet through crowd-sourced, easy to understand, and openly accessible benchmarking data. Inspired by [Lightbeam](https://github.com/mozilla/lightbeam), the Site Sonar browser extension (hosted in this repository) locates and benchmarks ad content silently while you browse. It is then sent to Site-Sonar's servers, where the data is aggregated and displayed on our [public dashboard](http://Site-Sonar.com/dashboard).
 
 ## Index
 * [Installing ULB](https://github.com/FrancescoSTL/Site-Sonar#installing-Site-Sonar)
